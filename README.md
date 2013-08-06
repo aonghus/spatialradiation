@@ -29,10 +29,12 @@ Each multiprocessing job $$$k$$$ writes to its own file "t_ij_k.dat", which can 
 
 Improvements
 ======
-There are many possible improvements, and ideas are welcome. For the moment the use of the rtree means we are restricted to a 'flat earth' approximation of distance.
+There are many possible improvements, and ideas are welcome. For the moment the use of the rtree means we are restricted to a 'flat earth' approximation of distance- a nice extension would be to work with spherical distances.
 
-
+We will also try to implement the continuum approach of Simini et al [2].
 
 
 
 [1]: http://www.nature.com/nature/journal/v484/n7392/fig_tab/nature10856_F1.html "A universal model for mobility and migration patterns"
+
+[2]: http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060069
